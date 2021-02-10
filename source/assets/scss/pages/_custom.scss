@@ -1,112 +1,298 @@
 .bg-color-naranja {
-    background-color: orange;
+  background-color: orange;
 }
-.text-white{
-    color: white;
+.text-white {
+  color: white;
 }
-.text-black{
-    color:black;
+.text-black {
+  color: black;
 }
-.text-blue{
-    color: #4DD0E0
+.text-blue {
+  color: #4dd0e0;
 }
 
-.text-green{
-    color: #1EC488;    
+.text-green {
+  color: #1ec488;
 }
 
 .img-a {
-    display:block;
-    margin:auto;
+  display: block;
+  margin: auto;
 }
 
 // Estilos tema 1
 
-.bg-color-1{
-    background-color: #082143;
-    
+.bg-color-1 {
+  background-color: #082143;
 }
 
-.bg-color-2{
-    background-color: #1EC488;
+.bg-color-2 {
+  background-color: #1ec488;
 }
-.border-radius{
-    border-radius: 10px;
-}
-
-.bd-hr{
-    border: 1px solid #002B45;
+.border-radius {
+  border-radius: 10px;
 }
 
-.bd-hr-green{
-    border: 1px solid #1EC488;
+.bd-hr {
+  border: 1px solid #002b45;
 }
 
+.bd-hr-green {
+  border: 1px solid #1ec488;
+}
 
 .sub-line {
-    h2,h3 {
-        overflow: hidden;
-        font-weight: 700;
-    }
+  h2,
+  h3 {
+    overflow: hidden;
+    font-weight: 700;
+  }
 
-    h2:after,h3:after {
-        content:"";
-        display: inline-block;
-        height: 0.5em;
-        vertical-align: bottom;
-        width: 100%;
-        margin-right: -100%;
-        margin-left: 10px;
-        border-top: 1px solid $orange;
-    }
+  h2:after,
+  h3:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid $orange;
+  }
 }
 
 .sub-title-line {
-    h2,h3 {
-        overflow: hidden;
-        font-weight: 700;
-    }
+  h2,
+  h3 {
+    overflow: hidden;
+    font-weight: 700;
+  }
 
-    h2:after,h3:after {
-        content:"";
-        display: inline-block;
-        height: 0.5em;
-        vertical-align: bottom;
-        width: 100%;
-        margin-right: -100%;
-        margin-left: 10px;
-        border-top: 1px solid #1EC488;
-    }
+  h2:after,
+  h3:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid #1ec488;
+  }
 }
 
-.br-sup{
-    border-radius: 10px 10px 0px 0px;
+.br-sup {
+  border-radius: 10px 10px 0px 0px;
 }
-.br-inf{
-    border-radius: 0px 0px 10px 10px;
-}
-
-.title{
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #1EC488;
-    background-color: #082143;
-    border-radius: 16px;
-    text-align: center;
+.br-inf {
+  border-radius: 0px 0px 10px 10px;
 }
 
- .table2{
-    background-color: #EBEBEB;
-    border: 1px solid black;
+.title {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1ec488;
+  background-color: #082143;
+  border-radius: 16px;
+  text-align: center;
 }
 
-.table1{
+.table2 {
+  background-color: #ebebeb;
+  border: 1px solid black;
+}
+
+.table1 {
   background-color: #082143 !important;
   color: white !important;
 }
 
-.text-izq{
-    text-align: left !important;
+.text-izq {
+  text-align: left !important;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.list {
+  width: 100%;
+  display: flex !important;
+  &__item {
+    &__bulletNumber {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-right: 1rem;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #005ea6;
+      span {
+        color: white;
+        font-weight: 700;
+        font-size: small;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    &__number {
+      position: relative;
+      margin-right: 1rem;
+      span {
+        color: orange;
+        font-size: 15pt;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+    }
+    &__icon {
+      position: relative;
+      width: 15px;
+      margin-right: 0.65rem;
+      img {
+        width: 15px;
+        vertical-align: middle;
+      }
+    }
+  }
+  &__txt {
+    p:first-child,
+    h3:first-child {
+      margin-top: -4px;
+    }
+  }
+}
+
+.arrow {
+  background: #082143;
+  position: relative;
+  padding: 1rem;
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    color: white;
+  }
+
+  &--xs {
+    padding: 0;
+    height: 8px;
+  }
+}
+
+.arrow::before {
+  content: "";
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-style: solid;
+  border-width: 25px 25px 0px 25px;
+  border-color: transparent transparent transparent transparent;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -18px;
+  margin-top: 0px;
+  z-index: 20;
+}
+
+.bg-color {
+  background: #e2eeff !important;
+}
+
+
+.text-sup2{
+  margin-top: -380px;
+  background: #ffffff00;
+}
+
+.bg-color1 {
+  background: #FFF1DE !important;
+}
+
+
+.text-sup3{
+  margin-top: -300px;
+  background: #ffffff00;
+}
+
+.arrow-color{
+  background: #FF8F00 !important;
+}
+
+.bg-1 {
+  background: #F5F5F5;
+  border: 1px solid #F45151;
+  border-radius: 10px;
+}
+
+.bg-2 {
+  background: #FFFFFF;
+  border: 1px solid #C3C3C3;
+  border-radius: 10px;
+}
+
+.bg-3 {
+  background: #F5F5F5;
+  border: 1px solid #1EC488;
+  border-radius: 10px;
+}
+
+.bg-4 {
+  background: #F5F5F5;
+  border: 1px solid #3D5DCB;
+  border-radius: 10px;
+}
+
+.bg-5 {
+  background: #F5F5F5;
+  border: 1px solid #707070;
+  border-radius: 10px;
+}
+
+.bg-6 {
+  background: #F5F5F5;
+  border: 1px solid #EAB707;
+  border-radius: 10px;
+}
+
+.bg-7 {
+  background: #F5F5F5;
+  border: 1px solid #836130;
+  border-radius: 10px;
+}
+
+.bg-8 {
+  background: #F5F5F5;
+  border: 1px solid #FF8F00;
+  border-radius: 10px;
+}
+
+.bg-9 {
+  background: #F5F5F5;
+  border: 1px solid #B15BDE;
+  border-radius: 10px;
+}
+
+.bg-10 {
+  background: #F5F5F5;
+  border: 1px solid #EBCA2D;
+  border-radius: 10px;
+}
+
+.bg-11 {
+  background: #F5F5F5;
+  border: 1px solid #2E2E2E;
+  border-radius: 10px;
 }

@@ -126,6 +126,27 @@
         "anchor": "33"
       }
     ]  
-  }
-  
+  },  
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "biotecnologia",
+    "title": "4. Biotecnología",
+    "breadcrumb": ["Inicio","Tema 4"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "biotecnologia",
+        "title": "4.1 Ventajas y desventajas",
+        "anchor": "41"
+      },   
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "biotecnologia",
+        "title": "4.2 Aplicaciones",
+        "anchor": "42"
+      }
+    ]  
+  }  
 ]

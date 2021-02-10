@@ -1,0 +1,112 @@
+.bg-color-naranja {
+    background-color: orange;
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color:black;
+}
+.text-blue{
+    color: #4DD0E0
+}
+
+.text-green{
+    color: #1EC488;    
+}
+
+.img-a {
+    display:block;
+    margin:auto;
+}
+
+// Estilos tema 1
+
+.bg-color-1{
+    background-color: #082143;
+    
+}
+
+.bg-color-2{
+    background-color: #1EC488;
+}
+.border-radius{
+    border-radius: 10px;
+}
+
+.bd-hr{
+    border: 1px solid #002B45;
+}
+
+.bd-hr-green{
+    border: 1px solid #1EC488;
+}
+
+
+.sub-line {
+    h2,h3 {
+        overflow: hidden;
+        font-weight: 700;
+    }
+
+    h2:after,h3:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid $orange;
+    }
+}
+
+.sub-title-line {
+    h2,h3 {
+        overflow: hidden;
+        font-weight: 700;
+    }
+
+    h2:after,h3:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid #1EC488;
+    }
+}
+
+.br-sup{
+    border-radius: 10px 10px 0px 0px;
+}
+.br-inf{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.title{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1EC488;
+    background-color: #082143;
+    border-radius: 16px;
+    text-align: center;
+}
+
+ .table2{
+    background-color: #EBEBEB;
+    border: 1px solid black;
+}
+
+.table1{
+  background-color: #082143 !important;
+  color: white !important;
+}
+
+.text-izq{
+    text-align: left !important;
+}

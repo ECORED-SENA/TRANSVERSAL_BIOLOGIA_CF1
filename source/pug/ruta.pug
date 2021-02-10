@@ -1,0 +1,143 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        title Ruta de aprendizaje
+        meta(meta name="description" content="Ruta de aprendizaje programa Habilidades Cognitivas en Ciencias Naturales .")    
+        link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+        link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+        link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+        link(href='assets/css/fancybox.css', rel='stylesheet')
+        link(href='assets/css/animate.css', rel='stylesheet')
+        link(rel="stylesheet", href="assets/css/main.css")
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    .curso-topbar
+                        
+                        a.curso-topbar__logo
+                            include ../assets/images/logos/senaLogo.svg
+
+                    .curso-portada
+
+                        .row.align-items-center
+
+                            .col-12.col-lg-6
+
+                                h3.curso-subtitulo Habilidades Cognitivas en Ciencias Naturales 
+                                h1.curso-titulo Ruta de aprendizaje
+
+                                .brand-line-primary
+
+                                p.curso-descripcion A continuación se presentan las actividades de aprendizaje que debe realizar el aprendiz durante el proceso formativo, estableciendo los tiempos, recursos educativos y evidencias que le permitirán  cumplir con los resultados de aprendizaje definidos para el programa de formación Habilidades Cognitivas en Ciencias Naturales.
+                    
+
+                            .col-12.col-lg-6
+                                .d-none.d-lg-block
+                                    img(src="assets/images/header/header_ruta.svg")           
+
+        section#ruta.curso-resultados.section.bg-base-light.container
+
+            .subtitulo-guion.my-4
+                h2 Guía de aprendizaje 1: Entorno vivo  <br><small class="text-muted letter-spacing-1x font-weight-bold">Duración: 12 horas</small>
+
+            .rutatimeline__wrapper.jumbotron.py-3.px-5
+
+                section#rutatimeline
+                    .rutatimeline__item.br--bottom   
+                        img(src="assets/images/ruta/inicio.svg", alt="")            
+                        p Inicio              
+                    .rutatimeline-card-wrapper                              
+                        .rutatimeline-card.card--step1
+                            .rutatimeline-card__head
+                                .number-box
+                                    span 01
+                                .title-box #[strong Actividad de aprendizaje:] Explicar la relación existente entre los ejes celular, sistémico y ecosistémico en el entorno vivo.
+                            .rutatimeline-card__body            
+                                .body-content-wrapper            
+                                    p #[strong Resultado de aprendizaje]</br>
+                                    p Establecer las relaciones entre las funciones básicas de un ser vivo de acuerdo con los niveles celular, organísmico y ecosistémico.
+
+                                    .tl-hr-divider
+                                    p #[strong Material de formación]</br>Entorno vivo.                        
+                                    .tl-hr-divider
+                                    p #[strong Evidencias:] 
+                                     
+                                    p #[strong Evidencia de conocimiento: AA1_EV01 -]  Mapa mental con los conceptos básicos del entorno vivo.                                                                                                                             
+
+                                    p #[strong Evidencia de producto: AA1_EV02 -] Infografía del modelamiento de un ser vivo respecto a sus componentes celular, organísmico y ecosistémico.                                                                           
+            .subtitulo-guion.my-4
+                h2 Guía de aprendizaje 2: entorno químico. <br><small class="text-muted letter-spacing-1x font-weight-bold">Duración: 18 horas</small>
+
+            .rutatimeline__wrapper.jumbotron.py-3.px-5          
+                    .rutatimeline-card-wrapper                              
+                        .rutatimeline-card.card--step1
+                            .rutatimeline-card__head
+                                .number-box
+                                    span 02
+                                .title-box #[strong Actividad de aprendizaje:] Demostrar experimentalmente los aspectos físicos y químicos de las mezclas y sustancias que pertenecen al entorno químico.
+                            .rutatimeline-card__body            
+                                .body-content-wrapper            
+                                    p #[strong Resultado de aprendizaje]</br>
+                                    p Denominar los aspectos físicos, químicos y analíticos de las mezclas y sustancia teniendo en cuenta el entorno químico.
+
+                                    .tl-hr-divider
+                                    p #[strong Material de formación]</br>Entorno químico                                 
+                                    .tl-hr-divider
+                                    p #[strong Evidencias:] 
+                                     
+                                    p #[strong Evidencia de conocimiento: AA1_EV01 -] Informe de laboratorio el experimento desarrollado.                                                                                                                                                                                      
+
+                                    p #[strong Evidencia de producto: AA1_EV02 -] Friso digital un experimento que representa las propiedades de un elemento químico.                                                        
+
+            .subtitulo-guion.my-4
+                h2 Guía de aprendizaje 3: entorno físico.  <br><small class="text-muted letter-spacing-1x font-weight-bold">Duración: 18 horas</small>
+
+            .rutatimeline__wrapper.jumbotron.py-3.px-5          
+                    .rutatimeline-card-wrapper                              
+                        .rutatimeline-card.card--step1
+                            .rutatimeline-card__head
+                                .number-box
+                                    span 03
+                                .title-box #[strong Actividad de aprendizaje:] Validar los procesos mecánicos, termodinámicos, electromagnéticos y ondulatorios del entorno físico.
+                            .rutatimeline-card__body            
+                                .body-content-wrapper            
+                                    p #[strong Resultado de aprendizaje]</br>
+                                    p Describir el funcionamiento de los procesos teniendo en cuenta los ejes del entorno mecánico, termodinámico, electromagnético y ondulatorio.
+
+                                    .tl-hr-divider
+                                    p #[strong Material de formación]</br>Entorno físico                
+                                    .tl-hr-divider
+                                    p #[strong Evidencias:] 
+                                     
+                                    p #[strong Evidencia de conocimiento: AA1_EV01 -] Prueba conceptual.                                                             
+
+                                    p #[strong Evidencia de producto: AA1_EV02 -] Video-exposición de un prototipo en el que se apliquen los principios del entorno físico en cuanto al eje mecánico, termodinámico, electromagnético y ondulatorio.    
+
+                                    p #[strong Evidencia producto: AA1_EV03 -] Bitácora de las evidencias de modelamiento, experimentación y representación de los tres entornos.   
+
+
+                    .rutatimeline__item.br--top                
+                        img(src="assets/images/ruta/certificacion.svg", alt="")    
+                        p Certificación        
+                    
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        script(src="assets/js/vendor.js")
+        script(src="assets/js/global.js")        
+        script(src="assets/js/pages.js")
+
+
+
+
+

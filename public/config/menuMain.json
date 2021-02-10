@@ -129,7 +129,7 @@
   },  
   {
     "id": 4,
-    "icon": "fa fa-file-text-o",
+    "icon": "fa fa-play-circle",
     "slug": "biotecnologia",
     "title": "4. Biotecnología",
     "breadcrumb": ["Inicio","Tema 4"],

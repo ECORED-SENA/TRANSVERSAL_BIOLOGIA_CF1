@@ -47,7 +47,7 @@
       {
        "icon": "fa fa-question-circle",
        "slug": "actividad-1",
-       "title": "Actividad didáctica: centro de comunicaciones",
+       "title": "Actividad didáctica: referente celular",
        "path": "pages/actividad-1.html"
      }
     ] 
@@ -70,19 +70,19 @@
       {
        "icon": "fa fa-question-circle",
        "slug": "actividad-2",
-       "title": "Actividad didáctica: good food",
+       "title": "Actividad didáctica: tipos de nutrición",
        "path": "pages/actividad-2.html"
       },
       {
         "icon": "fa fa-question-circle",
         "slug": "actividad-3",
-        "title": "Actividad didáctica: fiesta de los seres vivos",
+        "title": "Actividad didáctica: tipos de respiración",
         "path": "pages/actividad-3.html"
       },
       {
       "icon": "fa fa-question-circle",
       "slug": "actividad-4",
-      "title": "Actividad didáctica: circulando ando",
+      "title": "Actividad didáctica: la respiración",
       "path": "pages/actividad-4.html"
       },         
       {
